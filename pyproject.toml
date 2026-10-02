@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mgflow"
+version = "0.1.0"
+description = "Mixture Gaussian flows for distributional post-training"
+license = "MIT"
+license-files = ["LICENSE", "LICENSES/*.txt"]
+requires-python = ">=3.11"
+dependencies = ["torch>=2.6", "torchvision", "numpy", "scipy", "timm>=1.0.15", "huggingface_hub", "safetensors", "tqdm"]
+
+[project.optional-dependencies]
+t2i = ["diffusers>=0.38", "transformers>=5.12", "accelerate", "sentencepiece", "open_clip_torch>=2.31"]
+evaluation = ["transformers>=5.12", "open_clip_torch>=2.31"]
+test = ["pytest", "ruff"]
+
+[project.scripts]
+mgflow = "mgflow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.data-files]
+"share/mgflow" = ["requirements-cuda.txt"]
+"share/mgflow/configs" = ["configs/imagenet-kl.toml", "configs/imagenet-w2.toml", "configs/t2i-joint.toml", "configs/t2i-image.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

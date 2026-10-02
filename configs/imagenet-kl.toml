@@ -1,0 +1,17 @@
+domain = "imagenet"
+objective = "kl"
+model = "JiT-B"
+components = [1, 4, 16]
+reference = "assets/Reference/ImageNet"
+initial_weights = "assets/Checkpoints/ImageNet/Base/JiT-B.pth"
+encoder_weights_dir = "assets/Encoders/encoders"
+output = "runs/jit-b-kl"
+global_batch = 1024
+micro_batch = 16
+encoder_micro_batch = 16
+warmup_samples = 50000
+warmup_local_batch = 256
+steps = 125000
+lr_warmup = 6250
+ridge_multipliers = { "1" = 1.0, "4" = 3.0, "16" = 9.0 }
+compile = true

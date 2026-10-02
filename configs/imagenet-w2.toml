@@ -1,0 +1,16 @@
+domain = "imagenet"
+objective = "w2"
+model = "JiT-B"
+components = [1, 4]
+reference = "assets/Reference/ImageNet"
+initial_weights = "assets/Checkpoints/ImageNet/Base/JiT-B.pth"
+encoder_weights_dir = "assets/Encoders/encoders"
+output = "runs/jit-b-w2"
+global_batch = 1024
+micro_batch = 16
+encoder_micro_batch = 16
+warmup_samples = 50000
+warmup_local_batch = 256
+steps = 125000
+lr_warmup = 6250
+compile = true
