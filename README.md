@@ -4,6 +4,7 @@
 
 [Paper](https://arxiv.org/abs/2609.35763) ·
 [Project page](https://shihaoyang0423.github.io/MGFlow-website/) ·
+[**Try the demo**](https://huggingface.co/spaces/shy0423/mgflow) ·
 [Models and reference assets](https://huggingface.co/shy0423/MGFlow) ·
 [T2I reference images](https://huggingface.co/datasets/shy0423/MGFlow-T2I)
 
