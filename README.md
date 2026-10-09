@@ -2,11 +2,13 @@
 
 [Unifying Distributional Training for One-Step Visual Generation](https://arxiv.org/abs/2609.35763)
 
-[Paper](https://arxiv.org/abs/2609.35763) ·
-[Project page](https://shihaoyang0423.github.io/MGFlow-website/) ·
-[**Try the demo**](https://huggingface.co/spaces/shy0423/MGFlow) ·
-[Models and reference assets](https://huggingface.co/shy0423/MGFlow) ·
-[T2I reference images](https://huggingface.co/datasets/shy0423/MGFlow-T2I)
+<p>
+  <a href="https://shihaoyang0423.github.io/MGFlow-website/"><img src="https://img.shields.io/badge/Project-Page-187D72?style=flat&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=555" height="24" alt="Project page"></a>
+  <a href="https://arxiv.org/pdf/2609.35763"><img src="https://img.shields.io/badge/Paper-PDF-B31B1B?style=flat&amp;logo=arxiv&amp;logoColor=white&amp;labelColor=555" height="24" alt="Paper PDF"></a>
+  <a href="https://huggingface.co/spaces/shy0423/MGFlow"><img src="https://img.shields.io/badge/Live-Demo-EC9900?style=flat&amp;logo=huggingface&amp;logoColor=white&amp;labelColor=555" height="24" alt="Live demo"></a>
+  <a href="https://huggingface.co/collections/shy0423/mgflow"><img src="https://img.shields.io/badge/Hugging_Face-Collection-FFD21E?style=flat&amp;logo=huggingface&amp;logoColor=white&amp;labelColor=555" height="24" alt="Hugging Face collection"></a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=shihaoyang0423.MGFlow&amp;left_text=Views&amp;left_color=%23555&amp;right_color=%232979FF" height="24" alt="README views" title="Badge requests, not unique visitors">
+</p>
 
 MGFlow (Mixture Gradient Flow) post-trains one-step visual generators by matching
 real and generated features in frozen representation spaces. Our framework connects
