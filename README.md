@@ -3,10 +3,11 @@
 [Unifying Distributional Training for One-Step Visual Generation](https://arxiv.org/abs/2609.35763)
 
 <p>
-  <a href="https://shihaoyang0423.github.io/MGFlow-website/"><img src="https://img.shields.io/badge/Project-Page-187D72?style=flat&amp;logo=googlechrome&amp;logoColor=white&amp;labelColor=555" height="24" alt="Project page"></a>
-  <a href="https://arxiv.org/pdf/2609.35763"><img src="https://img.shields.io/badge/Paper-PDF-B31B1B?style=flat&amp;logo=arxiv&amp;logoColor=white&amp;labelColor=555" height="24" alt="Paper PDF"></a>
-  <a href="https://huggingface.co/spaces/shy0423/MGFlow"><img src="https://img.shields.io/badge/Live-Demo-EC9900?style=flat&amp;logo=huggingface&amp;logoColor=white&amp;labelColor=555" height="24" alt="Live demo"></a>
-  <a href="https://huggingface.co/collections/shy0423/mgflow"><img src="https://img.shields.io/badge/Hugging_Face-Collection-FFD21E?style=flat&amp;logo=huggingface&amp;logoColor=white&amp;labelColor=555" height="24" alt="Hugging Face collection"></a>
+  <a href="https://shihaoyang0423.github.io/MGFlow-website/"><img src="https://img.shields.io/badge/Project-Page-187D72?style=flat&amp;logo=googlechrome&amp;logoColor=68CBB4&amp;labelColor=555" height="24" alt="Project page"></a>
+  <a href="https://arxiv.org/pdf/2609.35763"><img src="https://img.shields.io/badge/Paper-PDF-B31B1B?style=flat&amp;logo=arxiv&amp;logoColor=F08A8A&amp;labelColor=555" height="24" alt="Paper PDF"></a>
+  <a href="https://huggingface.co/spaces/shy0423/MGFlow"><img src="https://img.shields.io/badge/Live-Demo-EC9900?style=flat&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=555" height="24" alt="Live demo"></a>
+  <a href="https://huggingface.co/collections/shy0423/mgflow"><img src="https://img.shields.io/badge/Hugging_Face-Collection-FFD21E?style=flat&amp;logo=huggingface&amp;logoColor=FFD21E&amp;labelColor=555" height="24" alt="Hugging Face collection"></a>
+  <a href="https://mp.weixin.qq.com/s/vTK8T-QmUAwtmCH_7DNKfg"><img src="https://img.shields.io/badge/-WeChat%40%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83-555555?style=flat&amp;logo=wechat&amp;logoColor=07C160" height="24" alt="机器之心微信报道"></a>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=shihaoyang0423.MGFlow&amp;left_text=Views&amp;left_color=%23555&amp;right_color=%232979FF" height="24" alt="README views" title="Badge requests, not unique visitors">
 </p>
 
